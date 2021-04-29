@@ -1,0 +1,13 @@
+##### ONE ------------------------------------------------------------------------------------------------------------------------------
+
+1. create object "Customer Score" under Lead
+fields
+	1. referral email(Text area) [IF filled - 3 point]
+	2. How satisfy you are with us : picklist 1 to 10 [IF 0-5 => 1 point, IF 6-10 => 2point]
+	3. How will you rate us: picklist 0 to 10 [IF 0-5 => 0 point, IF 6-8 => 1point, IF 9-10 => 2point]
+	4. Will you refer us to other: checkbox , If yes please fill referral email(validation)
+	5. Score(formula):
+	 Based on above point show color GREEN(if total point >4) or red(If total point<=4)
+   
+
+##### TWO ------------------------------------------------------------------------------------------------------------------------------
